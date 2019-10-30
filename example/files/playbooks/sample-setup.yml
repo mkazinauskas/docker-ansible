@@ -1,0 +1,6 @@
+---
+- name: Setup services for sample google server
+  hosts: google-host
+  remote_user: root
+  roles:
+    - ping

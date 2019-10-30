@@ -1,0 +1,3 @@
+---
+- name: Try to connect to host, verify a usable python and return pong on success
+  ping:
